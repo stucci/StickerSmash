@@ -36,6 +36,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "86920619-71ed-452a-9e5c-2ebbad217090"
+      }
+    },
+    "owner": "stucci"
   }
 }
