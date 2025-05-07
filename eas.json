@@ -28,6 +28,11 @@
     }
   },
   "submit": {
-    "production": {}
+    "production": {
+      "android": {
+        "serviceAccountKeyPath": "/Users/satoshi/repo/my-expo-project-447716-aacf8cc40eed.json",
+        "track": "internal"
+      }
+    }
   }
 }

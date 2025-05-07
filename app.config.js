@@ -16,14 +16,14 @@ const IS_PREVIEW = process.env.APP_VARIANT === 'preview';
 
 const getUniqueIdentifier = () => {
   if (IS_DEV) {
-    return 'com.yourname.stickersmash.dev';
+    return 'com.stucci.stickersmash.dev';
   }
 
   if (IS_PREVIEW) {
-    return 'com.yourname.stickersmash.preview';
+    return 'com.stucci.stickersmash.preview';
   }
 
-  return 'com.yourname.stickersmash';
+  return 'com.stucci.stickersmash';
 };
 
 const getAppName = () => {
