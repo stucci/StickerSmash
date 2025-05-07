@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.stucci.StickerSmash",
+      "bundleIdentifier": "com.stucci.stickersmash",
       "infoPlist": {
         "ITSAppUsesNonExemptEncryption": false
       }
@@ -20,7 +20,7 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.stucci.StickerSmash"
+      "package": "com.stucci.stickersmash"
     },
     "web": {
       "bundler": "metro",
@@ -50,6 +50,12 @@
         "projectId": "86920619-71ed-452a-9e5c-2ebbad217090"
       }
     },
-    "owner": "stucci"
+    "owner": "stucci",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/86920619-71ed-452a-9e5c-2ebbad217090"
+    }
   }
 }
